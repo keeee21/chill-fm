@@ -1,37 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chill FM - Retro Chill Music Station
 
-## Getting Started
+A retro-styled web application featuring original chill background music (BGM) tracks. This platform showcases self-produced ambient and chill music in a nostalgic, vintage-inspired interface.
 
-First, run the development server:
+## About This Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Chill FM is a personal music streaming platform designed to share original chill and ambient music compositions. The site features a retro aesthetic with warm orange/brown color schemes, glowing effects, and vintage typography to create an immersive listening experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Original Music Content**: All tracks are self-produced original compositions
+- **Retro Design**: Vintage-inspired UI with glowing effects and retro typography  
+- **Interactive Music Player**: Full-featured audio player with progress tracking
+- **Responsive Design**: Optimized for both desktop and mobile devices
+- **Modern Tech Stack**: Built with Next.js 15 and optimized for performance
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Copyright and Usage Rights
 
-## Learn More
+### Important Legal Notice
 
-To learn more about Next.js, take a look at the following resources:
+**All music tracks and compositions available on this platform are original works and are protected by copyright law.**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Copyright Ownership
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- All audio content, including but not limited to music tracks, compositions, and sound recordings, are the exclusive intellectual property of the creator
+- Copyright protection applies immediately upon creation and fixation of the works
 
-## Deploy on Vercel
+#### Prohibited Uses
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The following activities are strictly **PROHIBITED** without explicit written permission:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# chill-fm
+- ❌ Downloading, copying, or reproducing any audio content
+- ❌ Using tracks in commercial projects, videos, or applications  
+- ❌ Redistributing or sharing audio files through any medium
+- ❌ Creating derivative works or remixes
+- ❌ Broadcasting or public performance of the tracks
+- ❌ Incorporating the music into any other creative works
+
+#### Permitted Uses
+
+- ✅ Personal listening through the web interface
+- ✅ Sharing links to this website
+- ✅ Discussing or reviewing the music (non-commercial)
+
+#### Rights Enforcement
+
+The copyright holder reserves the right to
+
+- Issue takedown notices for unauthorized use
+- Pursue legal action for copyright infringement
+- Demand compensation for unauthorized commercial use
+- Grant or deny permission requests at their sole discretion
+
+#### Contact for Licensing
+
+For licensing inquiries, commercial use requests, or permission to use any tracks, please contact the copyright holder:
+
+- **GitHub**: [@keeee21](https://github.com/keeee21)
+- **Project Repository**: [chill-fm](https://github.com/keeee21/chill-fm)
+
+## Technical Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript with strict mode
+- **Styling**: Tailwind CSS v4 with custom retro theme
+- **Linting**: Biome (ESLint + Prettier replacement)
+- **Package Manager**: pnpm
+- **Audio**: HTML5 Audio API with custom controls
+
+## Legal Disclaimer
+
+This README serves as formal notice of copyright ownership and usage restrictions. Violation of these terms may result in legal action. All rights reserved.
