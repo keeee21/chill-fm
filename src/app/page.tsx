@@ -21,6 +21,24 @@ async function getTracks(): Promise<Track[]> {
       mood: "Peaceful",
       filePath: "/music/Serene_Flow.wav",
     },
+    {
+      id: 2,
+      title: "Cafe Acoustic",
+      artist: "Chill FM",
+      duration: "0:00",
+      genre: "Acoustic",
+      mood: "Cozy",
+      filePath: "/music/cafe_acoustic.wav",
+    },
+    {
+      id: 3,
+      title: "Lofi Quiet",
+      artist: "Chill FM",
+      duration: "0:00",
+      genre: "Lofi",
+      mood: "Quiet",
+      filePath: "/music/lofi_quiet_bgm.wav",
+    }
   ];
 }
 
