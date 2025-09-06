@@ -11,6 +11,8 @@ interface Track {
 }
 
 async function getTracks(): Promise<Track[]> {
+  const R2_BASE_URL = process.env.R2_BASE_URL;
+  
   return [
     {
       id: 1,
@@ -19,7 +21,7 @@ async function getTracks(): Promise<Track[]> {
       duration: "0:00",
       genre: "Ambient",
       mood: "Peaceful",
-      filePath: "/music/Serene_Flow.wav",
+      filePath: `${R2_BASE_URL}/Serene_Flow.wav`,
     },
     {
       id: 2,
@@ -28,7 +30,7 @@ async function getTracks(): Promise<Track[]> {
       duration: "0:00",
       genre: "Acoustic",
       mood: "Cozy",
-      filePath: "/music/cafe_acoustic.wav",
+      filePath: `${R2_BASE_URL}/cafe_acoustic.wav`,
     },
     {
       id: 3,
@@ -37,7 +39,7 @@ async function getTracks(): Promise<Track[]> {
       duration: "0:00",
       genre: "Lofi",
       mood: "Quiet",
-      filePath: "/music/lofi_quiet_bgm.wav",
+      filePath: `${R2_BASE_URL}/lofi_quiet_bgm.wav`,
     }
   ];
 }
